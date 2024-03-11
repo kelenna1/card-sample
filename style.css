@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+img{
+    width: 100%;
+    border-radius: 12px;
+    height: 220px;
+    object-fit: cover;
+}
+body{
+    background-color: aliceblue;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+#container{
+    max-width: 300px;
+    margin:0 auto;
+    margin-top: 20vh;
+
+}
+.card{
+    background-color: rgb(206, 227, 245);
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid #bacdd8;
+}
+.tag{
+    background-color: rgb(235, 231, 219);
+    color: #142631;
+    padding: 4px 8px;
+    border: 1px solid #e5eaed;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.name{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+p{
+    font-size: 14px;
+    color: #142631;
+    line-height: 150%;
+}
+button{
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-weight: bold;
+    background-color: rgb(235, 231, 219);
+    color: #0077ff;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.card-detail{
+    padding: 1px 8px 8px 8px;
+}
+button:hover{
+    background-color: #0077ff;
+    color: azure;
+}
